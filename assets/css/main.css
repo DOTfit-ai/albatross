@@ -95,4 +95,13 @@ button {
     100% {
         transform: translateX(110vw) translateY(5vh);
     }
+
+}
+
+.explosion-heart {
+    position: fixed;
+    font-size: 22px;
+    pointer-events: none;
+    z-index: 2000;
+    transition: transform 1s ease-out, opacity 1s ease-out;
 }
